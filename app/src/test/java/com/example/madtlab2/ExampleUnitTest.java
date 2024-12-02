@@ -55,7 +55,7 @@ public class ExampleUnitTest {
     public void testCountCharacters_WithTypicalSentence() {
         String input = "Hello world!";
         int result = WordCounter.countCharacters(input);
-        assertEquals(10, result); // Excludes spaces
+        assertEquals(11, result); // Excludes spaces
     }
 
     @Test
